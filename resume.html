@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Web Resume</title>    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+  <!-- Navbar section -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Your Name</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+        <!-- List Items -->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#header">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#work-experience">Work Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonials">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#recent-projects">Recent Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#podcast-features">Podcast Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#project-highlights">Project Highlights</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#tutorials-talks">Tutorials & Talks</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact-me">Contact Me</a>
+          </li>
+          <!-- <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown link
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li> -->
+        </ul>
+      </div>
+    </div>
+  </nav>
+    <!-- Header Section -->
+    <header id="header" class="container mt-4 mb-5 bg-light p-3 rounded">
+        <div class="row align-items-center">
+            <div class="col-md-4 mb-3 mb-md-0">
+                <img src="assets/profile.jpg" alt="Professional profile picture of Your Name" class="img-fluid rounded-circle">
+            </div>
+            <div class="col-md-8">
+                <h1 class="display-4">Your Name</h1>
+                <p class="lead">Welcome to my professional web resume.</p>
+            </div>
+        </div>
+    </header>    
+
+    <!-- Navigation Section -->
+     <!-- <nav class="container p-3 my-4 rounded rounded bg-light">
+        <div class="row">
+            <div class="col">
+                <h2 class="h4">Contact</h2>
+                <p>Email: youremail@example.com</p>
+                <p>LinkedIn: <a href="<https://www.linkedin.com/in/yourname>" class="text-decoration-none">yourname</a></p>
+            </div>
+        </div>
+    </nav> -->
+
+    <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button>
+
+    <!-- Skills Section -->
+    <section id="skills" class="container my-4">
+        <h2 class="h4">Skills</h2>
+        <table class="table table-striped table-light">
+            <tr>
+                <th>Technology</th>
+                <th>Proficiency</th>
+                <th>Years of Experience</th>
+            </tr>
+            <tr>
+                <td>HTML/CSS</td>
+                <td>Expert</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>Intermediate</td>
+                <td>3</td>
+            </tr>
+            <!-- Add more skills as needed -->
+        </table>
+    </section>
+
+
+    <!-- Education Section -->
+    <article id="education" class="container my-4 bg-info text-white p-3 rounded">
+        <h2 class="h4">Education</h2>
+        <ul class="list-unstyled">
+            <li><a href="<https://universitywebsite.com>"><strong>University Name</strong></a>, Bachelor's Degree, Graduation Year</li>
+        </ul>
+    </article>
+
+    <!-- Work Experience section -->
+    <article id="work-experience" class="container my-4 bg-info text-white p-3 rounded">
+        <h2 class="h4">Work Experience</h2>
+        <p><strong>Job Title</strong>, Company Name <em>(Year-Year)</em></p>
+    </article>        
+
+    <!-- Testimonial Section -->
+    <aside id="testimonials" class="container my-4 p-4 bg-success text-white rounded">
+        <h2>Testimonials</h2>
+        <blockquote cite="<http://example.com/fiona-feedback>" class="blockquote">
+            "Your Name has been an exceptional team player, consistently delivering projects on time and with high quality."
+        </blockquote>
+        <footer class="blockquote-footer text-white">Fiona Smith, Project Manager at Company Name</footer>
+    </aside>
+
+    <!-- Recent Projects Section -->
+    <section id="recent-projects" class="container my-4 bg-light p-3 border rounded">
+        <h2 class="h5">Recent Projects</h2>
+        <p>Project Name: Website Redesign</p>
+        <pre><code>&lt;!-- HTML structure of the redesigned homepage --&gt;
+&lt;div class="container"&gt;
+    &lt;header&gt;...&lt;/header&gt;
+    &lt;nav&gt;...&lt;/nav&gt;
+    &lt;main&gt;...&lt;/main&gt;
+    &lt;footer&gt;...&lt;/footer&gt;
+&lt;/div&gt;
+</code></pre>
+    </section>
+    
+    <!-- Podcast Features Section -->
+    <section id="podcast-features" class="container my-4 bg-light p-3 border rounded">
+        <h2>Podcast Features</h2>
+        <audio controls>
+            <source src="assets/invalid_keypress.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+    </section>
+
+    
+    <!-- Project Highlights Section -->
+    <section id="project-highlights" class="container my-4 bg-light p-3 border rounded">
+        <h2>Project Highlights</h2>
+        <video width="320" height="240" controls>
+            <source src="assets/Praline-Tin-GIF-Official_Proxy.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <!-- Tutorials & Talks Section -->
+    <section id="tutorials-talks" class="container my-4 bg-warning text-dark p-3 rounded">
+        <h2>Tutorials & Talks</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <!-- Contact Form Section -->
+    <aside id="contact-me" class="container my-4 bg-primary text-white p-3 rounded">
+        <h1 class="h4">Contact Me</h1>
+
+        <form action="/submit" method="post" class="p-3 rounded">
+            <fieldset>
+                <legend class="h6">Contact Information</legend>
+                
+                <label for="full-name">Full Name:</label>
+                <input type="text" id="full-name" name="full-name" placeholder="Enter your full name">
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" pattern="[0-9]{10}">
+            </fieldset>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="6" cols="50" placeholder="Your message here" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </aside>
+
+    <footer class="container-fluid py-3 mt-5 text-center bg-dark">
+	    <p class="text-white">&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+  <script>
+    var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+    var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+        return new bootstrap.Popover(popoverTriggerEl)
+    })
+</script>
+</body>
+</html>
